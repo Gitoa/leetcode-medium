@@ -1,3 +1,5 @@
-1.注意构造函数的用法，链表节点的申请
+2.注意构造函数的用法，链表节点的申请
 
-2.map的用法，count/find/erase，count计算出现次数，0或者1，find返回位置，erase删除iterator，M.erase(iter++)，注意提前保存变量，防止之后删除了而不自知
+3.map的用法，count/find/erase，count计算出现次数，0或者1，find返回位置，erase删除iterator，M.erase(iter++)，注意提前保存变量，防止之后删除了而不自知
+
+5.双指针，最长回文子串，假设pos1-pos2之间为回文串，更新时判断pos1-1与pos2+1是否相同，相同则加入，否则停止。从0-n-1遍历，初始时pos1=pos2，若pos2+1与pos1相同，加入，更新pos2=po2+1
