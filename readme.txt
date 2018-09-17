@@ -7,3 +7,5 @@
 6.记录下各个字符的二维坐标(x,y)，然后根据坐标排序即可。char与string之间的转换。还有string的方法，找子串，str.find(substr, pos)，从pos开始查找substr，返回首位下标，找不到返回string::npos，substr方法，str.substr(start,length)，str.substring(start, end)
 
 8.太多细节了。注意str.substr(start, length)
+
+11.sort函数自定义比较函数时的注意事项？return x<y;  if(x<y)return true ;else reutn false;第二种方式在数据量大时（999）会出错，不知道什么原因。。。
