@@ -1,4 +1,4 @@
-﻿2.注意构造函数的用法，链表节点的申请
+2.注意构造函数的用法，链表节点的申请
 
 3.map的用法，count/find/erase，count计算出现次数，0或者1，find返回位置，erase删除iterator，M.erase(iter++)，注意提前保存变量，防止之后删除了而不自知
 
@@ -9,3 +9,5 @@
 8.太多细节了。注意str.substr(start, length)
 
 11.sort函数自定义比较函数时的注意事项？return x<y;  if(x<y)return true ;else reutn false;第二种方式在数据量大时（999）会出错，不知道什么原因。。。
+
+12.很傻的if else题，注意的方法有string的insert方法，str.insert(pos, substr)
