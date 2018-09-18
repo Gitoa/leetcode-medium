@@ -1,4 +1,4 @@
-2.注意构造函数的用法，链表节点的申请
+﻿2.注意构造函数的用法，链表节点的申请
 
 3.map的用法，count/find/erase，count计算出现次数，0或者1，find返回位置，erase删除iterator，M.erase(iter++)，注意提前保存变量，防止之后删除了而不自知
 
@@ -13,3 +13,4 @@
 12.很傻的if else题，注意的方法有string的insert方法，str.insert(pos, substr)
 
 15.3sum，有点麻烦，思考下vector对自定义数据的查找，set.inserst()，对自定义数据去重？vector的元素查找,find(v.begin(), v.end(), val)。最后过了311/313，剩下两个超时了。
+采用双指针，复杂度降为on2
