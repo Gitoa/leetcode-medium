@@ -8,4 +8,6 @@
 
 8.太多细节了。注意str.substr(start, length)
 
-11.sort函数自定义比较函数时的注意事项？return x<y;  if(x<y)return true ;else reutn false;第二种方式在数据量大时（999）会出错，不知道什么原因。
+11.sort函数自定义比较函数时的注意事项？return x<y;  if(x<y)return true ;else reutn false;第二种方式在数据量大时（999）会出错，不知道什么原因。。。
+
+12.很傻的if else题，注意的方法有string的insert方法，str.insert(pos, substr)
