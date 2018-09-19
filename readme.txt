@@ -14,3 +14,5 @@
 
 15.3sum，有点麻烦，思考下vector对自定义数据的查找，set.inserst()，对自定义数据去重？vector的元素查找,find(v.begin(), v.end(), val)。最后过了311/313，剩下两个超时了。
 采用双指针，复杂度降为on2
+
+16.3sum-closest,和15一样，排序后，利用性质，利用双指针，复杂度为o(n2)。注意的是vector的拷贝初始化， vector<int> tmp(v1)      v.assign(v1.begin(), v2.begin())
