@@ -16,3 +16,5 @@
 采用双指针，复杂度降为on2
 
 16.3sum-closest,和15一样，排序后，利用性质，利用双指针，复杂度为o(n2)。注意的是vector的拷贝初始化， vector<int> tmp(v1)      v.assign(v1.begin(), v2.begin())
+
+18.4sum。基本思路与3sum一致，排序后，利用性质，利用双指针，复杂度为o(n3)。居然能过。。。
