@@ -17,4 +17,7 @@
 
 16.3sum-closest,和15一样，排序后，利用性质，利用双指针，复杂度为o(n2)。注意的是vector的拷贝初始化， vector<int> tmp(v1)      v.assign(v1.begin(), v2.begin())
 
+17.需要动态增长。注意的知识点？？？单个char转string， 先声明一个string str; str.push_back(char)；vector的赋值,assign，vector清空，v.clear()。
+
 18.4sum。基本思路与3sum一致，排序后，利用性质，利用双指针，复杂度为o(n3)。居然能过。。。
+
