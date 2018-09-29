@@ -36,14 +36,22 @@ public:
             ans.push_back(nums);
         }while(next_permutation(nums.begin(), nums.end()));
         return ans;
-        /*�Լ����õݹ�ķ�ʽʵ��ȫ���У���һ��������ȫ����ǰ��������ɵ����飬�ڶ���������ʣ�µ�����ɵ�����
-		�������Ǳ���ʣ�����飬��ʣ������Ϊ�㣬��Ϊһ���µ�ȫ���У�����������������鲢��ʣ��������ɾ���������жϡ� 
+        /*自己采用递归的方式实现全排列，第一个参数是全排列前几个数组成的数组，第二个参数是剩下的数组成的数组
+		方法就是遍历剩余数组，若剩余数组为零，则为一个新的全排列，否则将其加入排列数组并从剩余数组中删除，继续判断。 
 		vector<int> next_permu;
         permu(next_permu, nums);
         return ret;
+<<<<<<< HEAD
         
         
         ���Ͽ���������һ��������ʽ�ĵݹ飬 ����dfsʵ�֣����� 
+=======
+		
+		还有使用交换方式实现的
+		
+		
+		DFS方式的比较好理解，其实我的方式就是DFS，只是DFS用visited数组标记，我用res数组操作
+>>>>>>> 81cacd30f3a4605b5e3bc05bec64c340cc8b81b9
 		*/
     }
 };
