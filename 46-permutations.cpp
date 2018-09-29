@@ -17,7 +17,18 @@ public:
 		}
 		
 	}
-				
+	void perm(vector<int>&nums, int k, int m){
+		if(k==m-1){
+			ret.push_back(nums);
+		}
+		else{
+			for(int i=k; i<m; i++){
+				swap(nums[k], nums[i]);
+				perm(nums, k+1, m);
+				swap(nums[k], nums[i]);
+			}
+		}
+	}
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
         sort(nums.begin(), nums.end());
@@ -30,6 +41,9 @@ public:
 		vector<int> next_permu;
         permu(next_permu, nums);
         return ret;
+        
+        
+        网上看到的另外一个交换方式的递归， 利用dfs实现？？？ 
 		*/
     }
 };
