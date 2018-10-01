@@ -64,3 +64,5 @@
 55.原理很简单，用DFS的方法做，可以最快的返回结果。注意的话递归的退出，用一个外部bool来判断是否继续。超时了是为什么。。。有一个例子没过。（忘了加visited数组了导致重复计算）
 
 56.也是很简单的题目。注意分析特性就好，先进行排序，然后进行插入更新，若start小于等于end，则重合，进行更新，否则直接插入。
+
+59.简单。。。也是旋转矩阵，同样利用四个顶点的更新来做。注意vector生成多维数组的方式。vector<vector<int>> ans; vector<int>tmp(n); ans.push_back(tmp); 或者申请后进行resize。vector<vector<int>> ans(n); while(i<n){ans[i++].resize()};
