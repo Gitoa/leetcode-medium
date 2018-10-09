@@ -90,3 +90,5 @@
 78.subset，DFS做，注意条件即可。。。
 
 79.DFS。vector的初始化出错了。。。真的是。vector<int>tmp (len, val)。
+
+80.好蠢的题目。
