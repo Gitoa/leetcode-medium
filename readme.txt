@@ -88,3 +88,5 @@
 77.求排列组合，用DFS的方法做，注意边界条件和递归条件。
 
 78.subset，DFS做，注意条件即可。。。
+
+79.DFS。vector的初始化出错了。。。真的是。vector<int>tmp (len, val)。
