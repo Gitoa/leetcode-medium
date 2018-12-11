@@ -184,3 +184,5 @@
 187.字符串遍历比较，暴力的方法时间复杂度太高了：遍历，每次取长度为10的字符串，在余下的空间中查找是否存在重复的，重复则加入set，string.find(str, len)，set.count()，set.insert()。AC代码去掉了在余下字符串中find的操作，利用两个set实现查重，但是时间复杂度还是偏高。使用位操作速度会快很多，Bit Manipulation。
 
 199.二叉树从右侧看，其实就是每一层最右的结点，用层次遍历很容易就完成，但是速度有点慢。同时注意到队列queue的用法，q.push(), q.pop(), q.front(), q.back(), q.empty()
+
+200.其实就是图的遍历，BFS,DFS，将连通的图找出来，注意在使用队列以及vis标记是否访问时，在加入队列时就应该把vis设置成true，否则会重复入列。用到了pair的用法，pair<type, type> p(val1, val2)，p.first， p.second。
